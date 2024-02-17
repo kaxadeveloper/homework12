@@ -1,0 +1,201 @@
+@media (max-width: 1000px) {
+
+    /* header */
+    header {
+        padding-inline: 40px;
+    }
+
+    .header_search_form {
+        display: none;
+    }
+
+    .responsive_btn {
+        display: block;
+        background: transparent;
+        border: none;
+    }
+
+    .responsive {
+        display: block;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 870px) {
+    .section_contact_input {
+        width: 200px;
+    }
+
+    .section_contact_input::placeholder {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 834px) {
+    .head_log_btn {
+        width: 70px;
+        height: 35px;
+        font-size: 11.3px;
+    }
+
+    .prch_btn {
+        width: 35px;
+        height: 35px;
+    }
+
+    .fa-cart-shopping {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 801px) {
+    .section_contact_input {
+        width: 180px;
+    }
+
+    .section_contact_input::placeholder {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 731px) {
+    .section_contact_input {
+        width: 170px;
+    }
+
+    .section_contact_input::placeholder {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 695px) {
+    .section_contact_input {
+        width: 160px;
+    }
+
+    .section_contact_input::placeholder {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 660px) {
+    .section_contact_name_email {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .section_contact_input::placeholder {
+        font-size: 14px;
+    }
+
+    .form_textarea {
+        width: 95%;
+    }
+
+    .form_btn {
+        width: 95%;
+    }
+}
+
+@media (max-width: 640px) {
+    .section_contact_form {
+        width: 70%;
+    }
+
+    .section_contact_name_email {
+        display: flex;
+        column-gap: 15px;
+    }
+
+    .section_contact_input::placeholder {
+        font-size: 14px;
+    }
+
+    .form_textarea {
+        width: 98%;
+    }
+
+    .form_btn {
+        width: 98%;
+    }
+}
+
+@media (max-width: 590px) {
+    .section_contact_name_email {
+        display: flex;
+        column-gap: 12px;
+    }
+
+    .section_contact_input::placeholder {
+        font-size: 14px;
+    }
+
+    .form_textarea {
+        width: 95%;
+    }
+
+    .form_btn {
+        width: 95%;
+    }
+
+    .info_order_list {
+        padding-left: 2%;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 531px) {
+    .section_contact_form {
+        width: 80%;
+    }
+
+    .info_order {
+        font-size: 14px;
+    }
+
+    .order_option_t1 {
+        font-size: 14px;
+    }
+    .order_option_t {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .section_contact_form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 406px) {
+    .section_contact_form_title {
+        font-size: 24px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 400px) {
+    .section_contact_form {
+        width: 95%;
+    }
+
+    .section_contact_input {
+        width: 156px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 370px) {
+    .section_contact_name_email {
+        display: flex;
+        column-gap: 8px;
+    }
+    .section_contact_form {
+        width: 97%;
+    }
+    .info_order_list {
+        padding-left: 1px;
+        margin-top: 7px;
+    }
+}

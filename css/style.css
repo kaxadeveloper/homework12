@@ -1,0 +1,342 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+/* header */
+header {
+    height: 116px;
+    width: 100%;
+    background: #2E0230;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 72px;
+}
+
+.header_search_form {
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+}
+
+.header_search_inpt {
+    display: flex;
+    width: 512px;
+    padding-left: 16px;
+    justify-content: flex-end;
+    align-items: center;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+.header_search_inpt::placeholder {
+    color: rgba(158, 141, 158, 0.71);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_search_btn {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+    background: #B052B5;
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+    border: none;
+}
+
+.fa-magnifying-glass {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.responsive_btn {
+    display: none;
+}
+
+.responsive {
+    display: none;
+}
+
+.regis_purch_btn {
+    display: flex;
+    column-gap: 8px;
+}
+
+.head_log_btn {
+    display: flex;
+    width: 84px;
+    height: 42px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    background: transparent;
+}
+
+.user_resp_btn {
+    display: none;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.prch_btn {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    padding: 13px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #F30AEA;
+}
+
+.fa-cart-shopping {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* section */
+
+.section_form {
+    background-image: url(../images/cover\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 898px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_contact_form {
+    height: 770px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    background: rgba(28, 19, 37, 0.80);
+    backdrop-filter: blur(5px);
+}
+
+.section_contact_form_title {
+    color: #FFF;
+    text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.section_contact_name_email {
+    display: flex;
+    column-gap: 24px;
+}
+
+.section_contact_input {
+    display: flex;
+    width: 220px;
+    padding: 11px 22px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background: transparent;
+}
+
+.section_contact_input::placeholder {
+    color: rgba(158, 141, 158, 0.71);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.info_order_list {
+    padding-left: 5%;
+    margin-top: 24px;
+}
+
+.info_order {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: start;
+    margin-bottom: 12px;
+}
+
+.input_container {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+input[type=radio] {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    border: 2px solid rgba(243, 10, 234, 0.71);
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+input[type=radio]:checked::after {
+    content: "\f111";
+    font-size: 100%;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    border-radius: 50px;
+    color:rgba(243, 10, 234, 0.71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+}
+
+.order_option_t1 {
+    color: #B052B5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.order_option_t {
+    color: #B052B5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.form_textarea_container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+}
+
+.label_textarea {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.form_textarea {
+    display: flex;
+    width: 100%;
+    height: 112px;
+    padding-top: 11px;
+    padding-left: 22px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background: transparent;
+}
+
+.form_textarea::placeholder {
+    color: rgba(158, 141, 158, 0.71);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.form_checkbox_container {
+    display: flex;
+    column-gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 3.997px 3.997px 4px 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid #F30AEA;
+    vertical-align: middle;
+}
+
+input[type=checkbox]:checked::after {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #F30AEA;
+}
+
+.checkbox_label {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.form_btn {
+    display: flex;
+    width: 100%;
+    padding: 19px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #F30AEA;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
