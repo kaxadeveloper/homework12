@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/logo plant.svg">
+    <title>form page</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/27d4dbe998.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <div class="header_logo">
+                <img src="images/logo plant.svg" alt="">
+            </div>
+            <form action="" name="header_search_form" class="header_search_form">
+                <label for="searchInput"></label>
+                <input type="search" id="searchInput" name="searchQuery" placeholder="What are you looking for?"
+                    class="header_search_inpt">
+                <button type="submit" class="header_search_btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <button class="responsive_btn"><i class="fa-solid fa-magnifying-glass responsive"></i></button>
+            <div class="regis_purch_btn">
+                <button class="head_log_btn">LOG IN</button>
+                <button class="user_resp_btn"><i class="fa-solid fa-user"></i></button>
+                <button class="prch_btn"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </header>
+
+        <!-- section -->
+
+        <section class="section_form">
+            <div class="section_contact_form">
+                <div class="section_contact_form_title_container">
+                    <h2 class="section_contact_form_title">CONTACT US</h2>
+                </div>
+                <form action="" name="section_contact_form1" class="section_contact_form1">
+                    <div class="section_contact_name_email">
+                        <label for="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Name" class="section_contact_input"
+                            required>
+                        <label for="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Email" class="section_contact_input"
+                            required>
+                    </div>
+                    <div class="info_order_list">
+                        <p class="info_order">I have a delivery question about my order</p>
+                        <div class="input_container">
+                            <input type="radio" id="order" name="option" value="I did not receive my order"
+                                class="order_option1">
+                            <label for="order" class="order_option_t1">I did not receive my order</label>
+                        </div><br>
+                        <div class="input_container">
+                            <input type="radio" id="order1" name="option"
+                                value="My order is incorrect or arrived damaged" class="order_option">
+                            <label for="order1" class="order_option_t">My order is incorrect or arrived damaged</label>
+                        </div><br>
+                        <div class="input_container">
+                            <input type="radio" id="order2" name="option" value="Cancel my order" class="order_option">
+                            <label for="order2" class="order_option_t">Cancel my order</label>
+                        </div><br>
+                        <div class="input_container">
+                            <input type="radio" id="order3" name="option" value="Change my shipping address"
+                                class="order_option">
+                            <label for="order3" class="order_option_t">Change my shipping address</label>
+                        </div><br>
+                        <div class="form_textarea_container">
+                            <label for="message" class="label_textarea">Please provide more details below.</label><br>
+                            <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"
+                                class="form_textarea"></textarea>
+                        </div><br>
+                        <div class="form_checkbox_container">
+                            <input type="checkbox" id="subscribe" name="subscribe" value="yes" class="checkbox_input">
+                            <label for="subscribe" class="checkbox_label">I want to receive the newsletter</label>
+                        </div><br>
+                        <button type="submit" class="form_btn">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
